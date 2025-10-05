@@ -22,4 +22,4 @@ include:
   - board: nice_nano_v2
     shield: akab_left
   # - board: nice_nano_v2
-    # shield: skeletyl_right
+    # shield: akab_right
