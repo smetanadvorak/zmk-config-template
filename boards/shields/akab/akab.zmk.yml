@@ -1,0 +1,12 @@
+file_format: "1"
+id: akab
+name: Akab
+type: shield
+url: https://github.com/Bastardkb/Akab
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - akab_left
+  - akab_right
