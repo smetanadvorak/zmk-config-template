@@ -16,7 +16,7 @@
         &kp LSHFT   &kp A   &kp S   &kp D       &kp F       &kp G                           &kp H       &kp J       &kp K       &kp L       &kp SQT     &kp RSHFT
         &kp LCTRL   &kp Z   &kp X   &kp C       &kp V       &kp B                           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RCTRL
                                     &kp LALT    &kp LGUI    &mo BT                          &kp SPACE   &kp SPACE   &kp SPACE
-                                                &mo NAV     &kp SPACE                       &kp SPACE   &kp SPACE
+                                                &mo NAV     &kp SPACE
                 >;
             };
 
@@ -30,7 +30,7 @@
         &none       &none       &none       &none       &trans      &trans                  &trans      &trans      &none       &none       &none       &none
             >;
         };
-        
+
         bt_layer {
             bindings = <
         &sys_reset  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans      &trans      &trans      &trans      &trans      &trans

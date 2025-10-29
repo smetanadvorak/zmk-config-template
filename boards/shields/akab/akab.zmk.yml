@@ -9,4 +9,4 @@ features:
   - keys
 siblings:
   - akab_left
-  # - akab_right
+  - akab_right
