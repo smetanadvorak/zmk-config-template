@@ -7,6 +7,21 @@
 #define NUM     2
 #define BT      3
 / {
+
+    combos {
+        compatible = "zmk,combos";
+        combo_reset_left {
+            timeout-ms = <50>;
+            key-positions = <0 5>;  // left side keys (grave + E5)
+            bindings = <&sys_reset>;
+        };
+        combo_reset_right {
+            timeout-ms = <50>;
+            key-positions = <6 11>;  // right side keys (N6 + -)
+            bindings = <&sys_reset>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
